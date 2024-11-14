@@ -1,7 +1,3 @@
-# maven-template
+# Code Repository: How to Guide - Fuzzing
 
-To get started:
-
-1. Use the repository as template
-1. Replace the variables: 
-1. Happy coding
+See [here](https://axalon.atlassian.net/wiki/spaces/DXI/pages/4026826753/Fuzzing) for the guide.
