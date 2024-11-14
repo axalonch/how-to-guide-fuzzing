@@ -1,0 +1,18 @@
+# build directories
+/bin
+/target
+/build
+
+# ide files
+/.idea
+/.vscode
+/.settings
+/.project
+/.classpath
+
+# MAC OS X
+.DS_Store
+
+# additional ignored files
+.factorypath
+.jqwik-database

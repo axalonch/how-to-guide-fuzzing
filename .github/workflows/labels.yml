@@ -1,0 +1,16 @@
+name: Sync labels
+on:
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  sync:
+    name: Run label-sync
+    runs-on: ubuntu-latest
+    steps:
+      - uses: EndBug/label-sync@v2
+        with:
+          config-file: "https://raw.githubusercontent.com/axalonch/configurations/main/github_labels.yml"
+          delete-other-labels: true
